@@ -11,7 +11,7 @@
                     Welcome to my Portofolio!
                 </h1>
                 <h2 class="subtitle is-3">
-                    I'm Ivan Kurniawan S, a Backend Developer from Indonesia.
+                    I'm Ivan Kurniawan Sentosa, a Backend Developer from Indonesia.
                 </h2>
                 <p class="is-size-5">
                     Specialized in building robust and scalable backend systems using python FastAPI framework,
@@ -28,7 +28,7 @@
             </h3>
             <div class="content">
                 <p>
-                    Hello! I'm Ivan Kurniawan S, a passionate Backend Developer from Indonesia with
+                    Hello! I'm Ivan Kurniawan Sentosa, a passionate Backend Developer from Indonesia with
                     a strong focus on building robust and scalable backend systems. I specialize in
                     using the FastAPI framework for Python, which allows me to create high-performance
                     APIs quickly and efficiently. My expertise also extends to working with PostgreSQL
