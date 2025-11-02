@@ -27,7 +27,7 @@ const isMenuOpen = ref(false)
             Home
           </RouterLink>
           <RouterLink class="navbar-item" to="/projects" @click="isMenuOpen = false">
-            Proyek
+            Projects
           </RouterLink>
           <RouterLink class="navbar-item" to="/blog" @click="isMenuOpen = false">
             Blog
