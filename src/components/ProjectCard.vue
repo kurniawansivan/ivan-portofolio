@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { RouterLink } from 'vue-router'
 import type { Project } from '@/types/Project';
 
 defineProps<{
@@ -29,8 +30,14 @@ defineProps<{
           {{ tag }}
         </span>
       </div>
+
+      <RouterLink :to="{ name: 'ProjectDetail', params: { id: project.id } }"
+        class="button is-primary is-small is-outlined mt-4">
+        Read More
+      </RouterLink>
+
     </div>
-    </div>
+  </div>
 </template>
 
 <style scoped>
@@ -42,5 +49,16 @@ defineProps<{
 
 .card-content {
   flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.tags {
+  margin-top: auto;
+  padding-top: 1rem;
+}
+
+.button {
+  margin-top: 1rem;
 }
 </style>

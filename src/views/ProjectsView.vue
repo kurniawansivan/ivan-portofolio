@@ -1,6 +1,9 @@
 <script setup lang="ts">
-import ProjectCard from '@/components/ProjectCard.vue';
-import { projects } from '@/data/projects';
+import { useProjectStore } from '@/stores/ProjectStore'
+import { storeToRefs } from 'pinia';
+import ProjectCard from '@/components/ProjectCard.vue'
+const projectStore = useProjectStore();
+const { projects } = storeToRefs(projectStore);
 </script>
 
 <template>
