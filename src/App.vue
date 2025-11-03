@@ -22,7 +22,7 @@ const isMenuOpen = ref(false)
       </div>
 
       <div class="navbar-menu" :class="{ 'is-active': isMenuOpen }">
-        <div class="navbar-start">
+        <div class="navbar-end">
           <RouterLink class="navbar-item" to="/" @click="isMenuOpen = false">
             Home
           </RouterLink>
