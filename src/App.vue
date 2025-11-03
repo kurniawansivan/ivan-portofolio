@@ -49,8 +49,9 @@ const isMenuOpen = ref(false)
   <footer class="footer">
     <div class="content has-text-centered">
       <p>
-        <strong>Vue Portofolio</strong> oleh Ivan Kurniawan Sentosa. Vue 3, TypeScript, dan Bulma
+        <strong>Ivan Kurniawan Sentosa's Portofolio</strong>
       </p>
+      <p>Vue 3, TypeScript, dan Bulma</p>
     </div>
   </footer>
 </template>
