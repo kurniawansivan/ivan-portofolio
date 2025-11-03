@@ -49,7 +49,7 @@ const isMenuOpen = ref(false)
   <footer class="footer">
     <div class="content has-text-centered">
       <p>
-        <strong>Ivan Kurniawan Sentosa's Portofolio</strong>
+        <strong>Ivan Kurniawan Sentosa's Portfolio</strong>
       </p>
       <p>Vue 3, TypeScript, dan Bulma</p>
     </div>
